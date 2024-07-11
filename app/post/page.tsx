@@ -2,8 +2,11 @@
 
 const Post = () => {
   return (
-    <div className=" h-full flex justify-center mt-[10rem]">
-      <h1>Post number (0)</h1>
+    <div className=" mt-10 flex flex-col justify-center items-center space-y-6">
+      <h1 className=" text-3xl font-semibold">Post number (0)</h1>
+      <div>
+        <p>Post content goes here.</p>
+      </div>
     </div>
   )
 }

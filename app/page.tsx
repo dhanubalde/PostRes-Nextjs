@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className=" text-4xl font-semibold">Blog post </h1>
       <Link
         href="/post"
-        className="underline transition-all"
+        className="transition-all bg-black p-3 px-4 rounded-md text-white hover:bg-black/80 shadow-xl"
       >
       Go to Post
       </Link>
