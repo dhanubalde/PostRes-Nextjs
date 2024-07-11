@@ -3,30 +3,13 @@
 import { getAllPost} from "@/actions/getData"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { db } from "@/lib/db"
 import Link from "next/link"
-
-
-
 
 
 
 const Post =  async () => {
   const user = await getAllPost()
   
-
-  // const form = useForm<z.infer<typeof PostSchema>>({
-  //   resolver: zodResolver(PostSchema),
-  //   defaultValues: {
-  //     title: "",
-  //     content: "",
-  //   },
-  // })
-
-  // const onSubmit = async (values: z.infer<typeof PostSchema>) => { 
-  //   console.log(values);
-  // }
-
   return (
     <div className=" mt-10 flex flex-col justify-center items-center space-y-6">
       <h1
